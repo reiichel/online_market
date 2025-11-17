@@ -8,6 +8,8 @@ const products = [
   { id: "p1", name: "חלב 3%", price: 5.9 },
   { id: "p2", name: "לחם מלא", price: 8.5 },
   { id: "p3", name: "עגבניות", price: 4.2 },
+  { id: "p4", name: "מלפפונים", price: 3.2 },
+  { id: "p5", name: "ביצים", price: 10.13},
 ];
 
 app.get("/products", (req, res) => res.json(products));
